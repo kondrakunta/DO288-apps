@@ -20,7 +20,7 @@ COPY  run-app.sh /opt/app-root/bin/
 RUN   chgrp -R 0 /opt/app-root && \
       chmod -R g=u /opt/app-root
 
-EXPOSE 1001
+EXPOSE wildfly
 
 USER 1001 
 
